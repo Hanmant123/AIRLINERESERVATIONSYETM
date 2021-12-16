@@ -21,7 +21,6 @@ public class FlightController {
 
 		@Autowired
 		FlightServiceImpl flightService;
-		
 		//http://localhost:8090/flight/flights
 		@GetMapping("/flights")
 		public List<Flight> listAllEmployee()
