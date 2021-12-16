@@ -29,8 +29,6 @@ public class FlightController {
 			return flightService.listAllFlight();
 			
 		}	
-		
-		
 		//http://localhost:8090/flight/flightsById/6E316
 		@GetMapping("/flightsById/{id}")
 		public Flight findFlightById(@PathVariable(value = "id")String flight_Number)
